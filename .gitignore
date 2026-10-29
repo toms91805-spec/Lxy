@@ -1,0 +1,26 @@
+# Python 运行时 / 虚拟环境
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本机运行时生成的数据（不入库）
+运行日志.txt
+设置.json
+models/
+_dl_backup/
+
+# 打包产物（由脚本重新生成）
+build/
+build_installer/
+dist/
+dist_installer/
+发布/
+*.spec
+
+# 编辑器 / 系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
